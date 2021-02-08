@@ -1,0 +1,83 @@
+[2021-02-08T10:54:43Z] DEBUG    - Logging set up successfully
+[2021-02-08T10:54:43Z] DEBUG    - Running None: Namespace(artifact_type=None, command=<function init at 0x1107769d0>, force=False, subparser_name=None, type_name=None, verbose=0, version=False)
+[2021-02-08T10:54:43Z] DEBUG    - Root directory: /Users/mujianmi/Desktop/workspace/code/cfn
+[2021-02-08T10:54:43Z] WARNING  - Initializing new project
+[2021-02-08T10:54:43Z] DEBUG    - Loading project file '/Users/mujianmi/Desktop/workspace/code/cfn/.rpdk-config'
+[2021-02-08T10:55:10Z] DEBUG    - Resource type identifier: Mustar::CloudMu::Starwar
+[2021-02-08T10:55:10Z] WARNING  - One language plugin found, defaulting to go
+[2021-02-08T10:55:10Z] DEBUG    - Language plugin: go
+[2021-02-08T10:55:10Z] DEBUG    - Init started
+[2021-02-08T10:55:17Z] DEBUG    - Writing .gitignore: /Users/mujianmi/Desktop/workspace/code/cfn/.gitignore
+[2021-02-08T10:55:17Z] INFO     - File already exists, not overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/.gitignore'
+[2021-02-08T10:55:17Z] DEBUG    - Making source folder structure: /Users/mujianmi/Desktop/workspace/code/cfn/cmd/resource
+[2021-02-08T10:55:17Z] DEBUG    - Writing Makefile: /Users/mujianmi/Desktop/workspace/code/cfn/Makefile
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/Makefile'
+[2021-02-08T10:55:17Z] DEBUG    - Writing go.mod: /Users/mujianmi/Desktop/workspace/code/cfn/go.mod
+[2021-02-08T10:55:17Z] DEBUG    - Writing SAM template: /Users/mujianmi/Desktop/workspace/code/cfn/template.yml
+[2021-02-08T10:55:17Z] DEBUG    - Writing handlers and tests
+[2021-02-08T10:55:17Z] DEBUG    - Writing stub handlers
+[2021-02-08T10:55:17Z] DEBUG    - Writing README: /Users/mujianmi/Desktop/workspace/code/cfn/README.md
+[2021-02-08T10:55:17Z] INFO     - File already exists, not overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/README.md'
+[2021-02-08T10:55:17Z] DEBUG    - Init complete
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/.rpdk-config'
+[2021-02-08T10:55:17Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/mujianmi/Desktop/workspace/code/cfn/resource-role.yaml
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/resource-role.yaml'
+[2021-02-08T10:55:17Z] DEBUG    - Generate started
+[2021-02-08T10:55:17Z] DEBUG    - Writing Types
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/cmd/resource/model.go'
+[2021-02-08T10:55:17Z] DEBUG    - Writing project: /Users/mujianmi/Desktop/workspace/code/cfn/cmd/main.go
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/cmd/main.go'
+[2021-02-08T10:55:17Z] DEBUG    - Writing makebuild: /Users/mujianmi/Desktop/workspace/code/cfn/makebuild
+[2021-02-08T10:55:17Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/makebuild'
+[2021-02-08T10:55:19Z] DEBUG    - Removing generated docs: /Users/mujianmi/Desktop/workspace/code/cfn/docs
+[2021-02-08T10:55:19Z] DEBUG    - Writing generated docs
+[2021-02-08T10:55:19Z] DEBUG    - Writing docs memo.md: /Users/mujianmi/Desktop/workspace/code/cfn/docs/memo.md
+[2021-02-08T10:55:19Z] DEBUG    - Writing docs tag.md: /Users/mujianmi/Desktop/workspace/code/cfn/docs/tag.md
+[2021-02-08T10:55:19Z] DEBUG    - Finished documenting nested properties
+[2021-02-08T10:55:19Z] DEBUG    - Writing docs README: /Users/mujianmi/Desktop/workspace/code/cfn/docs/README.md
+[2021-02-08T10:55:19Z] WARNING  - Initialized a new project in /Users/mujianmi/Desktop/workspace/code/cfn
+[2021-02-08T10:55:19Z] DEBUG    - Finished None
+[2021-02-08T11:26:52Z] DEBUG    - Logging set up successfully
+[2021-02-08T11:26:52Z] DEBUG    - Running generate: Namespace(command=<function generate at 0x1149da040>, subparser_name='generate', verbose=0, version=False)
+[2021-02-08T11:26:52Z] DEBUG    - Root directory: /Users/mujianmi/Desktop/workspace/code/cfn
+[2021-02-08T11:26:52Z] DEBUG    - Loading project file '/Users/mujianmi/Desktop/workspace/code/cfn/.rpdk-config'
+[2021-02-08T11:26:52Z] INFO     - Validating your resource specification...
+[2021-02-08T11:26:52Z] DEBUG    - Resolved '#/definitions/InitechDateFormat' to 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/InitechDateFormat'
+[2021-02-08T11:26:52Z] DEBUG    - Parsed 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/InitechDateFormat' to '(<BASE>, 'definitions', 'InitechDateFormat')'
+[2021-02-08T11:26:52Z] DEBUG    - Edge from '(<BASE>, 'properties', 'DueDate')' to '(<BASE>, 'definitions', 'InitechDateFormat')'
+[2021-02-08T11:26:52Z] DEBUG    - Resolved '#/definitions/InitechDateFormat' to 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/InitechDateFormat'
+[2021-02-08T11:26:52Z] DEBUG    - Parsed 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/InitechDateFormat' to '(<BASE>, 'definitions', 'InitechDateFormat')'
+[2021-02-08T11:26:52Z] DEBUG    - Edge from '(<BASE>, 'properties', 'ApprovalDate')' to '(<BASE>, 'definitions', 'InitechDateFormat')'
+[2021-02-08T11:26:52Z] DEBUG    - Resolved '#/definitions/Memo' to 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Memo'
+[2021-02-08T11:26:52Z] DEBUG    - Parsed 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Memo' to '(<BASE>, 'definitions', 'Memo')'
+[2021-02-08T11:26:52Z] DEBUG    - Edge from '(<BASE>, 'properties', 'Memo')' to '(<BASE>, 'definitions', 'Memo')'
+[2021-02-08T11:26:52Z] DEBUG    - Resolved '#/definitions/Memo' to 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Memo'
+[2021-02-08T11:26:52Z] DEBUG    - Parsed 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Memo' to '(<BASE>, 'definitions', 'Memo')'
+[2021-02-08T11:26:52Z] DEBUG    - Edge from '(<BASE>, 'properties', 'SecondCopyOfMemo')' to '(<BASE>, 'definitions', 'Memo')'
+[2021-02-08T11:26:52Z] DEBUG    - Resolved '#/definitions/Tag' to 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Tag'
+[2021-02-08T11:26:52Z] DEBUG    - Parsed 'file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json#/definitions/Tag' to '(<BASE>, 'definitions', 'Tag')'
+[2021-02-08T11:26:52Z] DEBUG    - Edge from '(<BASE>, 'properties', 'Tags', 'items')' to '(<BASE>, 'definitions', 'Tag')'
+[2021-02-08T11:26:52Z] DEBUG    - Rewriting refs in '<BASE>' (file:///Users/mujianmi/Desktop/workspace/code/cfn/mustar-cloudmu-starwar.json)
+[2021-02-08T11:26:52Z] DEBUG    -   '#/definitions/InitechDateFormat' -> '#/definitions/InitechDateFormat'
+[2021-02-08T11:26:52Z] DEBUG    -   '#/definitions/InitechDateFormat' -> '#/definitions/InitechDateFormat'
+[2021-02-08T11:26:52Z] DEBUG    -   '#/definitions/Memo' -> '#/definitions/Memo'
+[2021-02-08T11:26:52Z] DEBUG    -   '#/definitions/Memo' -> '#/definitions/Memo'
+[2021-02-08T11:26:52Z] DEBUG    -   '#/definitions/Tag' -> '#/definitions/Tag'
+[2021-02-08T11:26:52Z] WARNING  - Resource schema is valid.
+[2021-02-08T11:26:52Z] DEBUG    - Writing Resource Role CloudFormation template: /Users/mujianmi/Desktop/workspace/code/cfn/resource-role.yaml
+[2021-02-08T11:26:52Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/resource-role.yaml'
+[2021-02-08T11:26:52Z] DEBUG    - Generate started
+[2021-02-08T11:26:52Z] DEBUG    - Writing Types
+[2021-02-08T11:26:52Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/cmd/resource/model.go'
+[2021-02-08T11:26:52Z] DEBUG    - Writing project: /Users/mujianmi/Desktop/workspace/code/cfn/cmd/main.go
+[2021-02-08T11:26:52Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/cmd/main.go'
+[2021-02-08T11:26:52Z] DEBUG    - Writing makebuild: /Users/mujianmi/Desktop/workspace/code/cfn/makebuild
+[2021-02-08T11:26:52Z] DEBUG    - Overwriting '/Users/mujianmi/Desktop/workspace/code/cfn/makebuild'
+[2021-02-08T11:26:54Z] DEBUG    - Removing generated docs: /Users/mujianmi/Desktop/workspace/code/cfn/docs
+[2021-02-08T11:26:54Z] DEBUG    - Writing generated docs
+[2021-02-08T11:26:54Z] DEBUG    - Writing docs memo.md: /Users/mujianmi/Desktop/workspace/code/cfn/docs/memo.md
+[2021-02-08T11:26:54Z] DEBUG    - Writing docs tag.md: /Users/mujianmi/Desktop/workspace/code/cfn/docs/tag.md
+[2021-02-08T11:26:54Z] DEBUG    - Finished documenting nested properties
+[2021-02-08T11:26:54Z] DEBUG    - Writing docs README: /Users/mujianmi/Desktop/workspace/code/cfn/docs/README.md
+[2021-02-08T11:26:54Z] WARNING  - Generated files for Mustar::CloudMu::Starwar
+[2021-02-08T11:26:54Z] DEBUG    - Finished generate
